@@ -8,6 +8,13 @@ To make a checkers gameplay using AI is the interesting task.
 In this project, Human game play is defined and Alpha Beta Pruning game play is defined, and environment is set, so that there can be a interesting game between them.
 This project also has AI vs AI gameplay between(Q-Learning Agent and Alpha Beta Pruning)
 
+Alpha Beta Pruning: It is a an algorithm, that is used in game trees to read the no.of nodes evaluated. 
+This keeps in track of alpha(best value of maximum player) and beta (best value for min player)
+
+Q-Learning: It is a model-free reinforcement learning algorithm, that keeps on learning and updating.
+It keeps the track of win rewards, lose rewars
+
+
 
 ## Checkers Game using AI
 Two types of agents:
@@ -27,3 +34,10 @@ Two modes of Playing:
 1. In the main branch run python AIvsAI.py
 2. First player is Alpha-Beta and second is Q learning
 3. can replace number of training rounds for Qlearning
+
+### Conclusion:
+To conclude this the Q-Learning agent has played better when it is put on a training loop.
+This project can be further modelized to compare the Q-learning agent with other model-free Reinforcement agents
+Analysing the different combination of moves and their weighted values are more important inunderstanding the game of checkers.
+While designing the interface of game itself is not so difficult, designing an efficient way to build required more analysis.
+
