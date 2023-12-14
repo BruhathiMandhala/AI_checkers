@@ -41,3 +41,5 @@ This project can be further modelized to compare the Q-learning agent with other
 Analysing the different combination of moves and their weighted values are more important inunderstanding the game of checkers.
 While designing the interface of game itself is not so difficult, designing an efficient way to build required more analysis.
 
+### updated:
+If the pieces are not visible as red and blue dots, change the players symbol in Board.py to o and x for normal pieces and O and X for kings
