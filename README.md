@@ -1,6 +1,14 @@
 # AI_checkers
 Final Project for AI
 
+The project is to create a checkers game environment between Human vs AI and AI vs AI. (alpha beta pruning and Q learning Agent)
+### About Checkers:
+Checkers game is a traditional English Draughts game, which simply consists of 12 pieces for each player and can move according to the games.(red and blue for players)
+To make a checkers gameplay using AI is the interesting task.
+In this project, Human game play is defined and Alpha Beta Pruning game play is defined, and environment is set, so that there can be a interesting game between them.
+This project also has AI vs AI gameplay between(Q-Learning Agent and Alpha Beta Pruning)
+
+
 ## Checkers Game using AI
 Two types of agents:
 1. Alpha Beta Agent
